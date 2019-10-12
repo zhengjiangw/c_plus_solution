@@ -125,7 +125,8 @@
   <ItemGroup>
     <ClCompile Include="src\00-quick-start\0-first.cpp" />
     <ClCompile Include="src\00-quick-start\1-if.cpp" />
-    <ClCompile Include="src\01-var\00-basic.cpp" />
+    <ClCompile Include="src\01-var\00-basic_ref_point.cpp" />
+    <ClCompile Include="src\01-var\01-unname.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

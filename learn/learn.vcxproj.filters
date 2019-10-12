@@ -24,7 +24,10 @@
     <ClCompile Include="src\00-quick-start\1-if.cpp">
       <Filter>源文件\00-quickstart</Filter>
     </ClCompile>
-    <ClCompile Include="src\01-var\00-basic.cpp">
+    <ClCompile Include="src\01-var\00-basic_ref_point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\01-var\01-unname.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -30,5 +30,13 @@
     <ClCompile Include="src\01-var\01-const_alis_auto_decltype.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\01-var\02-struct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\01-var\Sales_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

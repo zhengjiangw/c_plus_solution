@@ -127,6 +127,10 @@
     <ClCompile Include="src\00-quick-start\1-if.cpp" />
     <ClCompile Include="src\01-var\00-basic_ref_point.cpp" />
     <ClCompile Include="src\01-var\01-const_alis_auto_decltype.cpp" />
+    <ClCompile Include="src\01-var\02-struct.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\01-var\Sales_data.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

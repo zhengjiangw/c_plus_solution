@@ -32,4 +32,6 @@ int main_02_01() {
 	}
 	cout << endl;
 
+	return 0;
+
 }

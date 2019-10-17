@@ -130,6 +130,7 @@
     <ClCompile Include="src\01-var\02-struct.cpp" />
     <ClCompile Include="src\02-str-vector-arr\00-string.cpp" />
     <ClCompile Include="src\02-str-vector-arr\01-vector.cpp" />
+    <ClCompile Include="src\02-str-vector-arr\03-array.cpp" />
     <ClCompile Include="src\02-str-vector-arr\02-iterator.cpp" />
   </ItemGroup>
   <ItemGroup>

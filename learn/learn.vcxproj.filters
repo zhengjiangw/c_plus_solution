@@ -33,6 +33,15 @@
     <ClCompile Include="src\01-var\02-struct.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\02-str-vector-arr\00-string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\02-str-vector-arr\01-vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\02-str-vector-arr\02-iterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\01-var\Sales_data.h">

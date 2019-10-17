@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Sales_data.h"
 
-int main() {
+int main_02() {
 
 	Sales_data data1, data2;
 	

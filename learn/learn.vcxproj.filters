@@ -48,6 +48,12 @@
     <ClCompile Include="src\03-expression\00-expression.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\04-statement\00-statement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\05-function\00-unname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\01-var\Sales_data.h">

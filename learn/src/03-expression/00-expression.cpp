@@ -5,7 +5,7 @@
 using namespace std;
 
 void type_cast();
-int main() {
+int main_03_00() {
 
 	int i = 1024;
 	int k = -i;//区负运算符
@@ -67,6 +67,7 @@ int main() {
 void type_cast() {
 
 	int ival = 3.541 + 3; //隐式转换, 3转为double, 然后忽略整数
+	//while(cin>>is) //cin可隐式转换为bool，根据状态确定
 
 	//static_cast，任何具有明确类型的对象，只要不包含底层const, 都可以使用static_cast
 	double d = 3.14;

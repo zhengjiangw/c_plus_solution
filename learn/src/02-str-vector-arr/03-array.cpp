@@ -5,7 +5,7 @@ using namespace std;
 
 void arr_and_pointer();
 void multi_arr();
-int main() {
+int main_02_03() {
 
 	//数组个数也是数组类型的一部分，编译可知， arr类型为：int arr[10]
 	unsigned cnt = 42;

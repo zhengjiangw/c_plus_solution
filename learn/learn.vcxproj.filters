@@ -45,6 +45,9 @@
     <ClCompile Include="src\02-str-vector-arr\03-array.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\03-expression\00-expression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\01-var\Sales_data.h">

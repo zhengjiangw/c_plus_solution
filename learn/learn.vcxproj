@@ -137,6 +137,8 @@
     <ClCompile Include="src\05-function\00-basic.cpp" />
     <ClCompile Include="src\05-function\01-pointer.cpp" />
     <ClCompile Include="src\06-class\00-struct-friend.cpp" />
+    <ClCompile Include="src\06-class\01-other-feature.cpp" />
+    <ClCompile Include="src\06-class\02-stuctor.cpp" />
     <ClCompile Include="src\99-test\demo.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main_06_00() {
-
-	return 0;
-}
-
 //struct Sales_data { 默认public
 class Sales_data { //默认private, class和struct唯一区别就是默认访问权限
 
@@ -22,7 +17,8 @@ public:
 	Sales_data(const std::string& s) :bookNo(s) {}
 	Sales_data(const std::string& s, unsigned n, double p) :
 		bookNo(s), units_sold(n), revenue(p* n) {}
-	Sales_data(std::istream&);
+	//explicit关键字只能声明在类内部，不可用来做隐式转换
+	explicit Sales_data(std::istream&);
 
 	//const 成员函数表明不能修改成员变量的值
 	std::string isbn() const { return bookNo; }
@@ -66,4 +62,20 @@ std::istream& read(std::istream& is, Sales_data& item) {
 	is >> item.bookNo >> item.units_sold >> price;
 	item.revenue = price * item.units_sold;
 	return is;
+}
+
+int main_06_00() {
+
+	Sales_data item;
+	item = string("huhu"); //拷贝初始化，隐式变换
+	string bookNo = "123456";
+	item.combine(bookNo); //隐式转换，bookNo调用了Sales(string)构造函数默认转换为Sales_data对象
+	//item.combine("123");错误, 隐式转换只能一次，这里"123"->string->Sales_data是两次。
+	item.combine(string("123"));//正确，一次隐式转换
+	//item.combine(cin);//调用Sales_data(std::istream)
+	Sales_data data(cin); //explicit声明的只能直接初始化
+	//data.combine(cin); //explicit不能隐式初始化
+	data.combine(static_cast<Sales_data>(cin)); //但可以强制转换
+	
+	return 0;
 }

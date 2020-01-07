@@ -78,6 +78,12 @@
     <ClCompile Include="src\08-sequence-container\02-adapter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\09-generic\00-start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\10-associate-container\00-start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\01-var\Sales_data.h">

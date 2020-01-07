@@ -142,6 +142,8 @@
     <ClCompile Include="src\08-sequence-container\00-start.cpp" />
     <ClCompile Include="src\08-sequence-container\01-string.cpp" />
     <ClCompile Include="src\08-sequence-container\02-adapter.cpp" />
+    <ClCompile Include="src\09-generic\00-start.cpp" />
+    <ClCompile Include="src\10-associate-container\00-start.cpp" />
     <ClCompile Include="src\99-test\demo.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -84,6 +84,9 @@
     <ClCompile Include="src\10-associate-container\00-start.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\11-dynamic-memory\00-start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\01-var\Sales_data.h">

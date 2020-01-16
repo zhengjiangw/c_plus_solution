@@ -11,7 +11,7 @@ using namespace std;
 
 void unsort_container();
 
-int main() {
+int main_10_00() {
 
 	map<string, size_t> word_count;
 	set<string> exclude = { "the", "is", "are" };
@@ -83,14 +83,12 @@ int main() {
 	else
 		cout << "find it count:" << iset.count(1) << endl;
 
-	return 0;
-
 	// low_bound()和upper_bound()不支持无序关联容器, 一般用在可重复容器
 	iset.lower_bound(5); //返回第一个不小于5的迭代器
 	iset.upper_bound(5); //返回第一个大于5的迭代器
 	iset.equal_range(5); //返回pair,等于5的范围
 
-
+	return 0;
 }
 
 // 无序容器, 使用hash函数和关键字的==运算符
